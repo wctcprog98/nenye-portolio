@@ -1,0 +1,595 @@
+
+.profPic{
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+}
+
+.normalHeader{
+    color: white;
+    line-height: 1.6;
+    font-family: "Oswald" ,"sans-serif";
+    border-bottom: .5px solid white;
+    background-color: black;
+}
+
+
+h2{
+  float: right; 
+}
+/* Welcome */
+/* typing effect */
+.css-typing p {
+    border-right: .15em solid orange;
+    font-family: "Oswald", "sans-serif";
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .css-typing p:nth-child(1) {
+    font-size: 30px;
+    font-family: "Oswald", "sans-serif";
+    margin-left: 30px;
+    line-height: 60px;
+    width: 6.5em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    color: white;
+  }
+  
+  .css-typing p:nth-child(2) {
+    margin-bottom: 20px;
+    margin-left: 150px;
+    color: #ff8a00;
+    font-size: 60px;
+    line-height: 100px;
+    font-weight: 600;
+    width: 6.5em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(3) {
+    font-size: 30px;
+    margin-left: 350px;
+    width: 12em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    color: white;
+  }
+
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+/* Navigation */
+#masterHeader{
+    border-bottom: .5px solid white;
+    width: 100%;
+}
+
+.foot{
+    display: inline-block;
+}
+
+
+h2{
+    color: white; 
+}
+/* Portfolio */
+
+.portfolioBody{
+    background-color: black;
+}
+
+.head{
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.6;
+}
+
+.content{
+ margin-top: 10px;
+  text-align: left;
+  line-height: 1.6em;
+  margin-left: 250px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  width: 325px;
+}
+
+.contentMid{
+  margin-top: 10px;
+  text-align: left;
+  line-height: 1.6em;
+  margin-left: 200px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  width: 325px;
+}
+
+img{
+    height: 65px;
+    width: 200px;
+    /* position: absolute; */
+    margin-left: 150px;
+
+}
+
+nav{
+    margin-right: 10px;
+    margin-top: 35px;
+    margin-left: 200px;
+    float: right;
+}
+
+a:hover {
+color: #bd5d38; 
+text-decoration: none;
+}
+
+nav a{
+margin-right: 20px;
+color: white;
+font: 13px "Open Sans", sans-serif; 
+line-height: 1.6;
+text-decoration: none; 
+}
+
+.copy p {
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    right: 600px;
+    
+}
+
+.copyright{
+    position: absolute;
+    bottom: 20px;
+    right: 600px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+#images{
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+    #image{
+      margin-top: 50x;
+      margin-bottom: 100px;
+      margin-left: 100px;
+      text-align: center;
+}
+
+#changes{
+  display: flex;
+}
+
+.compCode{
+background-image: url("assets/images/computer-code");
+}
+
+i{
+  float: left;
+  margin-left:250px;
+}
+
+.progress{
+  background-color: grey;
+}
+
+.skills{
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+.css{
+  margin-left: 250px;
+}
+.w3-light-grey w3-round{
+  float: left;
+  width: 200px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{
+  background-image: url("assets/images/compBackground.jpg");
+}
+
+.aboutMe{
+float: right;
+font: 13px "Open Sans", sans-serif; 
+font-size: 20px;
+color: #ff8a00;
+line-height: 1.6;
+}
+
+.name a{
+  font-size: 35px;
+  color: #ff8a00;
+  text-decoration: none;
+  line-height: 1.6;
+}
+ .textControl{
+   text-align: center;
+   font-family: "Open Sans", sans-serif;
+   margin-right: 150px;
+   line-height: 1.6;
+ }
+ .me{
+   float: left;
+   margin-right: 200px;
+   margin-top: 60px;
+   font-size: 60px;
+   line-height: 60px;
+   margin-bottom: 60px;
+   text-transform: uppercase;
+   font-family: "Oswald", "sans-serif";
+   line-height: 1.6;
+   color: black;
+ }
+ .about{
+   background-color: white;
+   color: black;
+ }
+ .picture{
+  float: left;
+  height: 400px;
+  width: 400px;
+  /* bottom: 280px; */
+ }
+.otherHeader{
+  font-family: "Oswald" ,"sans-serif";
+  background-color: rgba(0,0,0,0.85);
+  line-height: 1.6'
+}
+.twoTone{
+  text-transform: uppercase;  
+  font-family: "Oswald" ,"sans-serif";
+  font-weight: 400;
+  line-height: 1.5em;
+  color: black;
+}
+
+.aboutHeader{
+  float: right;
+  text-align: right;
+  margin-top: 175px;
+  margin-right: -275px;
+  margin-bottom: 25px;
+  font-family: "Oswald" ,"sans-serif";
+  width: 800px;
+  line-height: 1.6;
+  font-size: 20px;
+  color: #ff8a00;
+}
+
+.knowlege{
+  background-color: black;
+}
+
+.d-block{
+  height:500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+ width: 400px;
+}
+
+.carousel-caption{
+  color: black;
+}
+.container{
+  width: 700px;
+}
+
+.app{
+  color: #ff8a00;
+}
+
+.know{
+  color: white;
+  font-family: "Oswald", "sans-serif";
+  font-size: 60px;
+  margin-top:30px;
+  margin-left: 135px;
+}
+
+.card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  height: 500px;
+  border: 6px solid  #ff8a00; 
+}
+
+.card body{
+  border-bottom: #ff8a00;
+}
+
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 100px; 
+  /* margin-top: -100px; */
+}
+
+.card-title {
+  font-family: "Oswald", "sans-serif";
+  line-height: 1.6;
+  text-align: center;
+}
+
+.btn{
+  background-color: #ff8a00;
+  width: 350px;
+  font-family: "Oswald", "sans-serif";
+}
+a .btn:hover{
+  background-color: #ff8a00;
+}
+.list-group{
+  font-family: "Oswald", "sans-serif";
+  line-height: 1.6;
+}
+.form-group{
+  margin-bottom: 20px;
+  font-family: "Oswald", "sans-serif";
+  line-height: 1.6;
+}
+
+.message{
+  height: 200px;
+}
+.textAlign{
+  font-family: "Oswald", "sans-serif";
+  color: black;
+  line-height: 1.6;
+  text-align: right;
+  font-size: 20px;
+  margin-left: 580px;
+  width: 800px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  height: 70px;
+  margin-bottom: 35px;
+  margin-left: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.skill{
+  color: white;
+  font-family: "Oswald", "sans-serif";
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+/* clear column float */
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.align{
+  text-align: left;
+  color: white;
+}
+
+td{
+  font-family: "Oswald", "sans-serif";
+  color: #ff8a00;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-right: 60px;
+}
+table{
+  position: relative;
+  right: 155px;
+}
+#first{
+  position: relative;
+  left:-100px;
+}
+
+.front{
+  position: relative;
+  right: 70px;
+}
+
+#second{
+ position: relative;
+ right: 200px;
+}
+.back{
+  position: relative;
+  right: 170px;
+}
+#third{
+  position:relative;
+  right: 300px;
+}
+.full{
+  position: relative;
+  right: 275px;
+}
+.workSkills{
+  margin-top: 100px;
+  font-family: "Oswald", "sans-serif";
+  color: white;
+  text-align: right;
+}
+/* .carouselContainer{
+  width: 1000px;
+  text-align: center;
+} */
+
+.centerCont{
+  /* margin-top: 10px; */
+  font-family: "Oswald", "sans-serif";
+  font-size: 18px;;
+  color: #ff8a00;
+  /* padding: 10px; */
+  }
+  .skillsKnow{
+    text-transform: uppercase;
+    font-family: "Oswald", "sans-serif";
+    text-align: center;
+    /* position: absolute;
+    left: 740px; */
+    color: grey;
+    font-size: 25px;
+  }
+  .centerContent{
+  font-family: "Oswald", "sans-serif";
+  font-size: 18px;
+  line-height: 1.6;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 30px;
+  display: block;
+  text-align: left;
+  
+  }
+
+.skillSection{
+  font-family: "Oswald", "sans-serif";
+  color: #ff8a00; 
+  text-align: left;
+  position: relative;
+  left: 500px;
+}
+ 
