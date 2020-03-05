@@ -127,9 +127,10 @@ h2{
   font-size: 30px;
 }
 
-.css-typing:nth-child(2){
-  color:white;
+.css-typing nth:child(1) {  
+  color: #ff8a00;
 }
+
 h1.art{
   text-align: center;
   position: relative;
@@ -195,7 +196,7 @@ nav{
 }
 
 a:hover {
-color: #bd5d38; 
+color: #ff8a00; 
 text-decoration: none;
 }
 
