@@ -1,11 +1,15 @@
-new TypeIt("#myElement")
+
+
+new TypeIt(".css-typing")
   .type("Hello. My name is")
     .pause(1000)
     .break()
+    .break()
     .type("NENYE DIEI")
     .break()
+    .break()
     .pause(1000)
-    .type("I am a full stack web developer")
+    .type("I am a Full Stack Web Developer")
     .pause(2000)
     .delete(24)
     .type("Front End Developer")

@@ -22,58 +22,7 @@ h2{
 }
 /* Welcome */
 /* typing effect */
-.css-typing p {
-    border-right: .15em solid orange;
-    font-family: "Oswald", "sans-serif";
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .css-typing p:nth-child(1) {
-    font-size: 30px;
-    font-family: "Oswald", "sans-serif";
-    margin-left: 30px;
-    line-height: 60px;
-    width: 6.5em;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type 2s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    color: white;
-  }
-  
-  .css-typing p:nth-child(2) {
-    margin-bottom: 20px;
-    margin-left: 150px;
-    color: #ff8a00;
-    font-size: 60px;
-    line-height: 100px;
-    font-weight: 600;
-    width: 6.5em;
-    opacity: 0;
-    -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-  
-  .css-typing p:nth-child(3) {
-    font-size: 30px;
-    margin-left: 350px;
-    width: 12em;
-    opacity: 0;
-    -webkit-animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-    animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    color: white;
-  }
-
+/* 
   @keyframes type {
     0% {
       width: 0;
@@ -169,6 +118,26 @@ h2{
     border-bottom: .5px solid white;
     width: 100%;
 }
+
+.css-typing{
+  position: absolute;
+  top: 150px;
+  font-family: "Oswald", "sans-serif";
+  color: white;
+  font-size: 30px;
+}
+
+.css-typing:nth-child(2){
+  color:white;
+}
+h1.art{
+  text-align: center;
+  position: relative;
+  top: 45px;
+  font-family: "Oswald", "sans-serif";
+  font-size: 45px;
+}
+
 
 .foot{
     display: inline-block;
@@ -411,7 +380,7 @@ line-height: 1.6;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  height: 500px;
+  height: 520px;
   border: 6px solid  #ff8a00; 
 }
 
@@ -452,8 +421,8 @@ a .btn:hover{
   line-height: 1.6;
 }
 
-.message{
-  height: 200px;
+#message{
+  height: 100px;
 }
 .textAlign{
   font-family: "Oswald", "sans-serif";
@@ -593,3 +562,14 @@ table{
   left: 500px;
 }
  
+#thankYou{
+  height: 120px; 
+  position: absolute;
+  top: 250px;
+  right: 620px;
+}
+
+#thank{
+  text-align: center;
+  font-family: "Oswald", "sans-serif";
+}
