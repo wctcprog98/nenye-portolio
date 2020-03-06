@@ -1,198 +1,221 @@
 
 .profPic{
-    position: absolute;
-    z-index: 1;
-    top: 100px;
-    width: 200px;
-    height: 200px;
-    left: 100px;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  width: 200px;
+  height: 200px;
+  left: 100px;
 }
 
 .normalHeader{
-    color: white;
-    line-height: 1.6;
-    font-family: "Oswald" ,"sans-serif";
-    border-bottom: .5px solid white;
-    background-color: black;
+  color: white;
+  line-height: 1.6;
+  font-family: "Oswald" ,"sans-serif";
+  border-bottom: .5px solid white;
+  background-color: black;
 }
 
 
 h2{
-  float: right; 
+float: right; 
 }
 /* Welcome */
 /* typing effect */
 /* 
-  @keyframes type {
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      border: none;
-    }
+@keyframes type {
+  0% {
+    width: 0;
   }
-  
-  @-webkit-keyframes type {
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      border: none;
-    }
+  99.9% {
+    border-right: .15em solid orange;
   }
-  
-  @keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
+  100% {
+    border: none;
   }
-  
-  @-webkit-keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
   }
-  
-  @keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
+  99.9% {
+    border-right: .15em solid orange;
   }
-  
-  @-webkit-keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    border: none;
   }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
   }
-  @-webkit-keyframes blink {
-    50% {
-      border-color: tranparent;
-    }
+  1% {
+    opacity: 1;
   }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
 /* Navigation */
 #masterHeader{
-    border-bottom: .5px solid white;
-    width: 100%;
+  border-bottom: .5px solid white;
+  width: 100%;
+}
+
+.css-typing p {
+color: #ff8a00;
+font-size: 60px;
+font-weight: 600;
 }
 
 .css-typing{
-  position: absolute;
-  top: 150px;
+position: absolute;
+top: 175px;
+left: 250px;
+font-family: "Oswald", "sans-serif";
+color: white; 
+font-size: 30px;
+}
+
+.css-typing nth:child(2) {  
+color: #ff8a00;
+}
+
+.slide{
+font-family: "Oswald", "sans-serif";
+font-size: 25px;
+}
+
+.slide1{
+font-family: "Oswald", "sans-serif";
+font-size: 25px;
+color: white; 
+}
+.slide2{
   font-family: "Oswald", "sans-serif";
-  color: white;
-  font-size: 30px;
+font-size: 25px;
+color: yellow; 
+text-align: right;
 }
-
-.css-typing nth:child(1) {  
-  color: #ff8a00;
-}
-
 h1.art{
-  text-align: center;
-  position: relative;
-  top: 45px;
-  font-family: "Oswald", "sans-serif";
-  font-size: 45px;
+text-align: center;
+position: relative;
+top: 45px;
+font-family: "Oswald", "sans-serif";
+font-size: 60px;
 }
 
 
 .foot{
-    display: inline-block;
+  display: inline-block;
 }
 
 
 h2{
-    color: white; 
+  color: white; 
 }
 /* Portfolio */
 
 .portfolioBody{
-    background-color: black;
+  background-color: black;
 }
 
 .head{
-    text-align: center;
-    font-size: 50px;
-    line-height: 1.6;
+  text-align: center;
+  font-size: 50px;
+  line-height: 1.6;
 }
 
 .content{
- margin-top: 10px;
-  text-align: left;
-  line-height: 1.6em;
-  margin-left: 250px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.6;
-  width: 325px;
+margin-top: 10px;
+text-align: left;
+line-height: 1.6em;
+margin-left: 250px;
+font-family: "Open Sans", sans-serif;
+line-height: 1.6;
+width: 325px;
 }
 
 .contentMid{
-  margin-top: 10px;
-  text-align: left;
-  line-height: 1.6em;
-  margin-left: 200px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.6;
-  width: 325px;
+margin-top: 10px;
+text-align: left;
+line-height: 1.6em;
+margin-left: 200px;
+font-family: "Open Sans", sans-serif;
+line-height: 1.6;
+width: 325px;
 }
 
 img{
-    height: 65px;
-    width: 200px;
-    /* position: absolute; */
-    margin-left: 150px;
+  height: 65px;
+  width: 200px;
+  /* position: absolute; */
+  margin-left: 150px;
 
 }
 
 nav{
-    margin-right: 10px;
-    margin-top: 35px;
-    margin-left: 200px;
-    float: right;
+  margin-right: 10px;
+  margin-top: 35px;
+  margin-left: 200px;
+  float: right;
 }
 
 a:hover {
@@ -209,36 +232,36 @@ text-decoration: none;
 }
 
 .copy p {
-    color: black;
-    position: absolute;
-    bottom: 20px;
-    right: 600px;
-    
+  color: black;
+  position: absolute;
+  bottom: 20px;
+  right: 600px;
+  
 }
 
 .copyright{
-    position: absolute;
-    bottom: 20px;
-    right: 600px;
+  position: absolute;
+  bottom: 20px;
+  right: 600px;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 
 #images{
-    margin-top: 20px;
-    margin-bottom: 200px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+  #image{
+    margin-top: 50x;
+    margin-bottom: 100px;
     margin-left: 100px;
     text-align: center;
 }
 
-    #image{
-      margin-top: 50x;
-      margin-bottom: 100px;
-      margin-left: 100px;
-      text-align: center;
-}
-
 #changes{
-  display: flex;
+display: flex;
 }
 
 .compCode{
@@ -246,34 +269,34 @@ background-image: url("assets/images/computer-code");
 }
 
 i{
-  float: left;
-  margin-left:250px;
+float: left;
+margin-left:250px;
 }
 
 .progress{
-  background-color: grey;
+background-color: grey;
 }
 
 .skills{
-  font-size: 20px;
-  text-align: center;
-  line-height: 1.6;
+font-size: 20px;
+text-align: center;
+line-height: 1.6;
 }
 .css{
-  margin-left: 250px;
+margin-left: 250px;
 }
 .w3-light-grey w3-round{
-  float: left;
-  width: 200px;
+float: left;
+width: 200px;
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+content: "";
+clear: both;
+display: table;
 }
 .container{
-  background-image: url("assets/images/compBackground.jpg");
+background-image: url("assets/images/compBackground.jpg");
 }
 
 .aboutMe{
@@ -285,292 +308,293 @@ line-height: 1.6;
 }
 
 .name a{
-  font-size: 35px;
-  color: #ff8a00;
-  text-decoration: none;
-  line-height: 1.6;
+font-size: 35px;
+color: #ff8a00;
+text-decoration: none;
+line-height: 1.6;
 }
- .textControl{
-   text-align: center;
-   font-family: "Open Sans", sans-serif;
-   margin-right: 150px;
-   line-height: 1.6;
- }
- .me{
-   float: left;
-   margin-right: 200px;
-   margin-top: 60px;
-   font-size: 60px;
-   line-height: 60px;
-   margin-bottom: 60px;
-   text-transform: uppercase;
-   font-family: "Oswald", "sans-serif";
-   line-height: 1.6;
-   color: black;
- }
- .about{
-   background-color: white;
-   color: black;
- }
- .picture{
-  float: left;
-  height: 400px;
-  width: 400px;
-  /* bottom: 280px; */
- }
+.textControl{
+ text-align: center;
+ font-family: "Open Sans", sans-serif;
+ margin-right: 150px;
+ line-height: 1.6;
+}
+.me{
+ float: left;
+ margin-right: 200px;
+ margin-top: 60px;
+ font-size: 60px;
+ line-height: 60px;
+ margin-bottom: 60px;
+ text-transform: uppercase;
+ font-family: "Oswald", "sans-serif";
+ line-height: 1.6;
+ color: black;
+}
+.about{
+ background-color: white;
+ color: black;
+}
+.picture{
+float: left;
+height: 400px;
+width: 400px;
+/* bottom: 280px; */
+}
 .otherHeader{
-  font-family: "Oswald" ,"sans-serif";
-  background-color: rgba(0,0,0,0.85);
-  line-height: 1.6'
+font-family: "Oswald" ,"sans-serif";
+background-color: rgba(0,0,0,0.85);
+line-height: 1.6'
 }
 .twoTone{
-  text-transform: uppercase;  
-  font-family: "Oswald" ,"sans-serif";
-  font-weight: 400;
-  line-height: 1.5em;
-  color: black;
+text-transform: uppercase;  
+font-family: "Oswald" ,"sans-serif";
+font-weight: 400;
+line-height: 1.5em;
+color: black;
 }
 
 .aboutHeader{
-  float: right;
-  text-align: right;
-  margin-top: 175px;
-  margin-right: -275px;
-  margin-bottom: 25px;
-  font-family: "Oswald" ,"sans-serif";
-  width: 800px;
-  line-height: 1.6;
-  font-size: 20px;
-  color: #ff8a00;
+float: right;
+text-align: right;
+margin-top: 175px;
+margin-right: -275px;
+margin-bottom: 25px;
+font-family: "Oswald" ,"sans-serif";
+width: 800px;
+line-height: 1.6;
+font-size: 20px;
+color: #ff8a00;
 }
 
 .knowlege{
-  background-color: black;
+background-color: black;
 }
 
 .d-block{
-  height:500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
- width: 400px;
+height:500px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+width: 400px;
 }
 
 .carousel-caption{
-  color: black;
+color: black;
 }
 .container{
-  width: 700px;
+width: 700px;
 }
 
 .app{
-  color: #ff8a00;
+color: #ff8a00;
 }
 
 .know{
-  color: white;
-  font-family: "Oswald", "sans-serif";
-  font-size: 60px;
-  margin-top:30px;
-  margin-left: 135px;
+color: white;
+font-family: "Oswald", "sans-serif";
+font-size: 60px;
+margin-top:30px;
+margin-left: 135px;
 }
 
 .card{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  height: 520px;
-  border: 6px solid  #ff8a00; 
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+height: 520px;
+border: 6px solid  #ff8a00; 
 }
 
 .card body{
-  border-bottom: #ff8a00;
+border-bottom: #ff8a00;
 }
 
 .card-img-top {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  width: 100px; 
-  /* margin-top: -100px; */
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 50px;
+width: 100px; 
+/* margin-top: -100px; */
 }
 
 .card-title {
-  font-family: "Oswald", "sans-serif";
-  line-height: 1.6;
-  text-align: center;
+font-family: "Oswald", "sans-serif";
+line-height: 1.6;
+text-align: center;
 }
 
 .btn{
-  background-color: #ff8a00;
-  width: 350px;
-  font-family: "Oswald", "sans-serif";
+background-color: #ff8a00;
+width: 350px;
+font-family: "Oswald", "sans-serif";
 }
 a .btn:hover{
-  background-color: #ff8a00;
+background-color: #ff8a00;
 }
 .list-group{
-  font-family: "Oswald", "sans-serif";
-  line-height: 1.6;
+font-family: "Oswald", "sans-serif";
+line-height: 1.6;
 }
 .form-group{
-  margin-bottom: 20px;
-  font-family: "Oswald", "sans-serif";
-  line-height: 1.6;
+margin-bottom: 20px;
+font-family: "Oswald", "sans-serif";
+line-height: 1.6;
 }
 
 #message{
-  height: 100px;
+height: 100px;
 }
 .textAlign{
-  font-family: "Oswald", "sans-serif";
-  color: black;
-  line-height: 1.6;
-  text-align: right;
-  font-size: 20px;
-  margin-left: 580px;
-  width: 800px;
+font-family: "Oswald", "sans-serif";
+color: black;
+line-height: 1.6;
+text-align: right;
+font-size: 20px;
+margin-left: 580px;
+width: 800px;
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: black;
-  text-align: center;
-  height: 70px;
-  margin-bottom: 35px;
-  margin-left: 50px;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+color: black;
+text-align: center;
+height: 70px;
+margin-bottom: 35px;
+margin-left: 50px;
 }
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .skill{
-  color: white;
-  font-family: "Oswald", "sans-serif";
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 20px;
+color: white;
+font-family: "Oswald", "sans-serif";
+font-size: 30px;
+text-align: center;
+margin-bottom: 20px;
 }
 
 /* Create two equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
+float: left;
+width: 33.33%;
+padding: 10px;
 }
 /* clear column float */
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+content: "";
+display: table;
+clear: both;
 }
 .align{
-  text-align: left;
-  color: white;
+text-align: left;
+color: white;
 }
 
 td{
-  font-family: "Oswald", "sans-serif";
-  color: #ff8a00;
-  text-align: left;
-  font-size: 20px;
-  line-height: 1.6;
-  margin-right: 60px;
+font-family: "Oswald", "sans-serif";
+color: #ff8a00;
+text-align: left;
+font-size: 20px;
+line-height: 1.6;
+margin-right: 60px;
 }
 table{
-  position: relative;
-  right: 155px;
+position: relative;
+right: 155px;
 }
 #first{
-  position: relative;
-  left:-100px;
+position: relative;
+left:-100px;
 }
 
 .front{
-  position: relative;
-  right: 70px;
+position: relative;
+right: 70px;
 }
 
 #second{
- position: relative;
- right: 200px;
+position: relative;
+right: 200px;
 }
 .back{
-  position: relative;
-  right: 170px;
+position: relative;
+right: 170px;
 }
 #third{
-  position:relative;
-  right: 300px;
+position:relative;
+right: 300px;
 }
 .full{
-  position: relative;
-  right: 275px;
+position: relative;
+right: 275px;
 }
 .workSkills{
-  margin-top: 100px;
-  font-family: "Oswald", "sans-serif";
-  color: white;
-  text-align: right;
+margin-top: 100px;
+font-family: "Oswald", "sans-serif";
+color: white;
+text-align: right;
 }
 /* .carouselContainer{
-  width: 1000px;
-  text-align: center;
+width: 1000px;
+text-align: center;
 } */
 
 .centerCont{
-  /* margin-top: 10px; */
+/* margin-top: 10px; */
+font-family: "Oswald", "sans-serif";
+font-size: 18px;;
+color: #ff8a00;
+/* padding: 10px; */
+}
+.skillsKnow{
+  text-transform: uppercase;
   font-family: "Oswald", "sans-serif";
-  font-size: 18px;;
-  color: #ff8a00;
-  /* padding: 10px; */
-  }
-  .skillsKnow{
-    text-transform: uppercase;
-    font-family: "Oswald", "sans-serif";
-    text-align: center;
-    /* position: absolute;
-    left: 740px; */
-    color: grey;
-    font-size: 25px;
-  }
-  .centerContent{
-  font-family: "Oswald", "sans-serif";
-  font-size: 18px;
-  line-height: 1.6;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 30px;
-  display: block;
-  text-align: left;
-  
-  }
+  text-align: center;
+  /* position: absolute;
+  left: 740px; */
+  color: grey;
+  font-size: 25px;
+}
+.centerContent{
+font-family: "Oswald", "sans-serif";
+font-size: 18px;
+line-height: 1.6;
+margin-left: 150px;
+margin-right: 150px;
+margin-bottom: 30px;
+display: block;
+text-align: left;
+
+}
 
 .skillSection{
-  font-family: "Oswald", "sans-serif";
-  color: #ff8a00; 
-  text-align: left;
-  position: relative;
-  left: 500px;
+font-family: "Oswald", "sans-serif";
+color: #ff8a00; 
+text-align: left;
+position: relative;
+left: 500px;
+font-size: 20px;
 }
- 
+
 #thankYou{
-  height: 120px; 
-  position: absolute;
-  top: 250px;
-  right: 620px;
+height: 120px; 
+position: absolute;
+top: 250px;
+right: 620px;
 }
 
 #thank{
-  text-align: center;
-  font-family: "Oswald", "sans-serif";
+text-align: center;
+font-family: "Oswald", "sans-serif";
 }
